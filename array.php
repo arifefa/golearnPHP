@@ -3,10 +3,12 @@
 $color_primary = array(
     'red','yellow','green'
 );
-// cetak array
+// cetak array using var_dump, print_r, json_encode
 var_dump($color_primary);
 echo '<br>';
 print_r($color_primary);
+echo '<br>';
+echo json_encode($color_primary);
 echo '<br>';
 // cetak array color primary data awal
 echo $color_primary[0];
